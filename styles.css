@@ -1,0 +1,51 @@
+body 
+{margin: 0;
+background-color:black;
+color:white;
+font-family: Arial, sans-serif;}
+
+main 
+{min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+h1 
+{font-size: 24px;
+font-weight: 400;}
+
+a 
+{color: white;
+text-decoration: none;
+font-size: 24px;
+margin-left: 40px;}
+
+.menu 
+{flex-direction: column;
+gap: 30px;}
+
+.menu 
+a {margin-left: 0;}
+
+.info 
+{display: flex;
+min-height: 100vh;
+padding: 0 10vw;
+align-items: center;
+justify-content: space-between;
+box-sizing: border-box;}
+
+.txt-area 
+{max-width: 520px;}
+
+.txt-area 
+h1 {margin: 0 0 20px 0;}
+
+.txt-area 
+p {line-height: 1.6;
+margin: 0;}
+ 
+.image 
+{width: 350px;
+height: auto;
+margin-right: 115px;}
